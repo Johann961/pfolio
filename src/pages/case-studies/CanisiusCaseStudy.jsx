@@ -455,7 +455,7 @@ export default function CanisiusCaseStudy() {
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
             <a
-              href="mailto:hello@johannting.com"
+              href="mailto:ting.johann@gmail.com"
               className="inline-flex items-center gap-3 border border-fog-50 text-fog-50 font-heading font-bold text-sm uppercase tracking-widest px-7 py-4 rounded-full hover:bg-fog-50 hover:text-ink-950 transition-all duration-200"
             >
               Work together →
