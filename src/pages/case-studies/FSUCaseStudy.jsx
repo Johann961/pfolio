@@ -48,7 +48,7 @@ export default function FSUCaseStudy() {
             className="font-heading font-bold text-fog-50 mb-14 max-w-3xl"
             style={{ fontSize: "clamp(2rem, 4.5vw, 3.8rem)", letterSpacing: "-0.03em", lineHeight: "1.05" }}
           >
-            I redesigned FSU's Anne's College website — and it became the standard for the whole university.
+            I redesigned FSU's Anne's College website and it became the standard for the whole university.
           </motion.h1>
 
           <motion.div
@@ -98,7 +98,7 @@ export default function FSUCaseStudy() {
             </ScrollReveal>
             <ScrollReveal className="md:col-span-4 md:col-start-9" delay={0.1}>
               <p className="text-fog-600 font-body text-base leading-relaxed">
-                From the outset, every design decision was being evaluated on two levels: how it served Anne's College's prospective students, and whether it could scale across FSU's entire web ecosystem. Every other department in the university would scrutinize this work. If it held up, it became the new standard for every FSU college site. That's what was actually on the table.
+                From the outset, every design decision was being evaluated on two levels: how it served Anne's College's prospective students, and whether it could scale across FSU's entire web and design ecosystem. Every other department in the university would scrutinize this work but If it held up, it became the new standard for every FSU college site. This could lead to more engagement with other departments.
               </p>
             </ScrollReveal>
           </div>
@@ -153,14 +153,14 @@ export default function FSUCaseStudy() {
                 className="font-heading font-bold text-ink-950 mb-6"
                 style={{ fontSize: "clamp(1.6rem, 3vw, 2.6rem)", letterSpacing: "-0.025em", lineHeight: "1.1" }}
               >
-                FSU's web system gave departments a container for content — but no tools to shape how it felt.
+                FSU's web system gave departments a bland looking container for content with no flexible tools to shape how it felt.
               </h2>
               <div className="space-y-4">
                 <p className="font-body text-base leading-relaxed" style={{ color: "#2a2a35" }}>
-                  The existing template was compliance infrastructure, not communication design. Basic text system, brand colours applied, nothing more. Across the university, the result was a lowest-common-denominator digital presence that served no audience particularly well.
+                  The existing FSU sites relied on a basic web template provied by their vendor. There were no design considerations. Just basic text systems, brand colours applied, and a couple card teaser types. Across the university, the result was a lowest-common-denominator, templated digital presence that served no audience particularly well.
                 </p>
                 <p className="font-body text-base leading-relaxed" style={{ color: "#2a2a35" }}>
-                  For Anne's College specifically, a content-rich program spanning six departments had no visual language to help prospective students understand it holistically. Without hierarchy or narrative flow, everything felt equally weighted — which meant nothing stood out.
+                  For Anne's College specifically, a content-rich program spanning multiple departments had no visual language to help prospective students understand it holistically. Without hierarchy or narrative flow, everything felt equally weighted leading to nothing standing out.
                 </p>
               </div>
             </ScrollReveal>
@@ -181,10 +181,10 @@ export default function FSUCaseStudy() {
               </h2>
               <div className="space-y-4 mb-8">
                 <p className="text-fog-600 font-body text-base leading-relaxed">
-                  That dual audience requirement shaped every call I made. Components had to be specific enough to be compelling for Anne's College and flexible enough that other departments could see their own content fitting into them.
+                  Components had to be specific enough to be compelling for Anne's College and flexible enough that other departments could see their own content fitting into them.
                 </p>
                 <p className="text-fog-600 font-body text-base leading-relaxed">
-                  The guiding policy was clear: extend the FSU brand, don't replace it. Work from the existing visual vocabulary — the colour system, the torn paper motif already present in FSU marketing materials — and evolve it into something with real personality.
+                  The guiding policy was clear: extend the FSU brand, don't stray away from or replace it. Drawing specifically from the brand colours and the torn paper motif already present in recent FSU marketing materials, I aimed to evolve the FSU web experience into something with real personality.
                 </p>
               </div>
               <div className="border-t border-rule-light pt-6 space-y-4">
@@ -222,14 +222,14 @@ export default function FSUCaseStudy() {
                 className="font-heading font-bold text-fog-50 mb-6"
                 style={{ fontSize: "clamp(1.6rem, 3vw, 2.6rem)", letterSpacing: "-0.025em", lineHeight: "1.1" }}
               >
-                The torn paper motif was already in FSU's DNA — the question was how to handle it with discipline.
+                The torn paper motif was already in FSU's DNA through some poster and social campaigns. The question was how to handle it for web.
               </h2>
               <div className="space-y-4">
                 <p className="text-fog-400 font-body text-base leading-relaxed">
-                  The tactile, analogue quality of the torn paper element evokes craftsmanship and higher learning — it's conceptually grounded, not decorative. But it's also the kind of distinctive element that becomes a cliché the moment it's overused.
+                  The tactile, analogue quality of the torn paper element evokes craftsmanship and higher learning. A notebook feel that is conceptually grounded, not unneccessarily decorative. It was the kind of distinctive element that could become a cliché if not properly used or if overused.
                 </p>
                 <p className="text-fog-400 font-body text-base leading-relaxed">
-                  The decision was to make it optional and toggleable: available as a divider between modular sections, and used selectively in landing page imagery for program pages. That restraint is what made it scalable. Future teams across FSU could use it with judgment rather than defaulting to it everywhere.
+                  The decision was to make it optional and toggleable: available as a divider between modular sections, and used selectively in specific landing and program page banner components. That restraint was important as future teams across FSU could use it with with intent rather than defaulting to it everywhere.
                 </p>
               </div>
             </ScrollReveal>
@@ -264,10 +264,10 @@ export default function FSUCaseStudy() {
               </h2>
               <div className="space-y-4">
                 <p className="font-body text-base leading-relaxed" style={{ color: "#2a2a35" }}>
-                  Working with the Anne's College team and UX research, I structured program pages as a narrative arc — introduction, academic structure, student experience, outcomes, calls to action — grounded in how prospective students actually move through a decision. That sequence replaced the previous approach of content sections with no connective logic.
+                  Working with the Anne's College team and UX research, I structured program pages as a narrative arc. The introduction, academic structure, student experience, outcomes, and calls to action were grounded in how prospective students actually move through a decision. That sequence replaced the previous approach of content sections with no connective logic.
                 </p>
                 <p className="font-body text-base leading-relaxed" style={{ color: "#2a2a35" }}>
-                  The modular component library was the other pillar: hero sections, program overview modules, curriculum layouts, student highlights, and CTA banners — all designed to function independently and contribute to a coherent whole.
+                  The modular component library was the other pillar: hero sections, program overview modules, curriculum layouts, student highlights, and CTA banners - all designed to function independently and contribute to a coherent whole.
                 </p>
               </div>
             </ScrollReveal>
@@ -301,10 +301,10 @@ export default function FSUCaseStudy() {
               </h2>
               <div className="space-y-4">
                 <p className="text-fog-600 font-body text-base leading-relaxed">
-                  I worked directly with Anne's College's communications director and internal graphic designer throughout — not presenting finished work for review, but building decisions together.
+                  I worked directly with Anne's College's communications director and internal graphic designer throughout. While presenting finished work for review, we got immediate feedback in our review sessions to act on together.
                 </p>
                 <p className="text-fog-600 font-body text-base leading-relaxed">
-                  When the designs went to FSU central and other departments for approval, the Anne's College team didn't just sign off on the rationale — they championed it with confidence, because they'd been part of constructing it. The inter-departmental political risk that existed at the outset was largely neutralized by the quality of that internal advocacy.
+                  When the designs went to FSU central and other departments for approval, the Anne's College team didn't just sign off on the rationale - they championed it with confidence because they'd been part of constructing it. The inter-departmental political risk that existed at the outset was largely neutralized by the quality of that internal advocacy. This was important as even though we provided rationale and supporting docs, there was no guarantee that they'd even go through it.
                 </p>
               </div>
             </ScrollReveal>
@@ -326,7 +326,7 @@ export default function FSUCaseStudy() {
               </h2>
               <div className="space-y-4 mb-8">
                 <p className="text-fog-400 font-body text-base leading-relaxed max-w-2xl">
-                  The Anne's College site launched with a structured, modular experience and clear narrative hierarchy for prospective students. But the real outcome was the institutional decision that followed: FSU adopted the design system university-wide, including rollout to external vendors.
+                  The Anne's College site launched with a structured, modular experience and clear narrative hierarchy for prospective students. But the big picture outcome was the institutional decision that followed: FSU adopted the design system university-wide, including rollout to external vendors.
                 </p>
                 <p className="text-fog-400 font-body text-base leading-relaxed max-w-2xl">
                   Component documentation produced alongside the original comps became the spec that external teams built from.
@@ -387,11 +387,11 @@ export default function FSUCaseStudy() {
 
             <ScrollReveal className="md:col-span-7 md:col-start-6" delay={0.1}>
               {[
-                { label: "Approval process", text: "The departmental approval process should have been led by the design team, not handed off — when rationale travels without the designer in the room, it can be diluted or met with unanswered technical questions; on a project this politically complex, that's a real risk." },
-                { label: "Co-ownership", text: "Co-ownership with the client's internal team from the start isn't just good process — it's the most effective political strategy available on multi-stakeholder institutional projects." },
-                { label: "Research workflow", text: "AI-assisted UX research synthesis would have meaningfully accelerated the discovery phase; processing large research volumes manually was the biggest friction point." },
-                { label: "QA workflow", text: "AI-assisted front-end QA would have replaced significant manual effort during development handoff — comparing output against specs and generating actionable developer feedback rather than testing fixes by hand." },
-                { label: "Measurement", text: "Defining prospective student engagement metrics upfront — program page dwell time, application conversion, navigation efficiency — would have made the impact story measurable rather than qualitative." },
+                { label: "Approval process", text: "The departmental approval process should have been led by the design team, not handed off as when rationale travels without the designer in the room, it can be diluted or met with unanswered technical questions. On a project this politically complex, that's a real risk." },
+                { label: "Co-ownership", text: "Co-ownership with the client's internal team from the start isn't just good process, it was the most effective political strategy available on this multi-stakeholder institutional project." },
+                { label: "Research workflow", text: "AI-assisted UX research synthesis would have meaningfully accelerated the discovery phase; processing large research volumes manually was a big task." },
+                { label: "QA workflow", text: "AI-assisted front-end QA would have replaced significant manual effort during development handoff as comparing output against specs and generating actionable developer feedback rather than testing fixes by hand." },
+                { label: "Reflection", text: "Apart from settign the standard for the FSU web prescence, they took our guidance to consistently design their social media, marketing materials, booklets, etc. accordingly. This tied a neat bow on the design identity of FSU that will hold for a long time." },
               ].map((item, i) => (
                 <motion.div
                   key={i}

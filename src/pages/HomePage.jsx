@@ -62,7 +62,7 @@ export default function HomePage() {
               variants={heroLine}
               className="text-fog-400 font-body text-base md:text-lg max-w-sm leading-relaxed"
             >
-              I design interfaces, systems, and experiences that agencies are proud to ship.
+              I design interfaces, systems, and experiences specializing in education, healthcare and government content.
             </motion.p>
             <motion.div variants={heroLine}>
               <a
@@ -88,12 +88,12 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-12 gap-8 items-center">
           <ScrollReveal className="md:col-span-7">
             <p className="font-heading font-bold text-ink-950 text-display-sm leading-tight">
-              Visual design with systems thinking. Nine years shipping products that hold up.
+              Visual design with modular systems thinking. Nine years shipping products that hold up.
             </p>
           </ScrollReveal>
           <ScrollReveal className="md:col-span-4 md:col-start-9" delay={0.1}>
             <p className="text-fog-600 font-body text-base leading-relaxed">
-              Specializing in UI design, design systems, and end-to-end UX — working with agencies and studios to get complex problems to beautiful, buildable solutions.
+              Specializing in UI design, design systems, and end-to-end UX, I solve complex design problems to craft beautiful, scalable solutions.
             </p>
             <div className="flex gap-3 flex-wrap mt-6">
               {['Figma', 'React', 'Design Systems', 'Prototyping'].map(skill => (

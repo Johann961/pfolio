@@ -100,7 +100,7 @@ export default function CanisiusCaseStudy() {
             </ScrollReveal>
             <ScrollReveal className="md:col-span-4 md:col-start-9" delay={0.1}>
               <p className="text-fog-600 font-body text-base leading-relaxed">
-                The site was functional. Content was current. But dark navy gradients were being placed directly over students' faces — literally obscuring the human, community-centred identity the university wanted to project. The photography library was full of genuine warmth and aspiration. The design system was smothering it. This, alongside heavy use of the dark blue was artificially darkening the site.
+                The site was functional. Content was current. But dark navy gradients were being placed directly over students' faces - literally obscuring the human, community-centred identity the university wanted to project. The photography library was full of genuine warmth and aspiration. The design system was smothering it. This, alongside heavy use of the dark blue was artificially darkening the site.
               </p>
             </ScrollReveal>
           </div>
@@ -193,10 +193,10 @@ export default function CanisiusCaseStudy() {
               <div className="border-t border-rule-light pt-6 space-y-4">
                 <p className="text-fog-600 text-xs font-body uppercase tracking-widest mb-4">Working Constraints</p>
                 {[
-                  'No pre-existing brand guidelines — the visual system had to be defined from scratch',
+                  'No pre-existing brand guidelines - the visual system had to be defined from scratch',
                   'Yellow as a primary accent colour, which tips into garish without careful proportion',
                   'A large, complex content ecosystem spanning admissions, programs, student life, and more',
-                  'No AI tools available — UX research synthesis and front-end QA were fully manual',
+                  'No AI tools available - UX research synthesis and front-end QA were fully manual',
                 ].map((c, i) => (
                   <div key={i} className="flex gap-3">
                     <span className="text-fog-400 mt-0.5 flex-shrink-0 font-body">—</span>
@@ -232,7 +232,7 @@ export default function CanisiusCaseStudy() {
               </h2>
               <div className="space-y-4">
                 <p className="text-fog-400 font-body text-base leading-relaxed">
-                  The geometric subtle accent signature of the system came from a specific idea — vertical progression, aspiration, movement toward a goal — expressed as a diagonal with a subtle gradient. It wasn't a decorative choice or a trend reference. It was conceptually grounded and provided us with a consistent design accent that could showcase itself on modular components.
+                  The geometric subtle accent signature of the system came from a specific idea - vertical progression, aspiration, movement toward a goal expressed as a diagonal with a subtle gradient. It wasn't a decorative choice or a trend reference. It was conceptually grounded and provided us with a consistent design accent that could showcase itself on modular components.
                 </p>
                 <p className="text-fog-400 font-body text-base leading-relaxed">
                   The diagonal's real power is multiplicative. A single instance carries the motif. Across an entire page, it creates visual rhythm. Across the full site, it creates a recognizable identity that feels designed rather than assembled. The balance came with not overdoing it and thus having the whole site experience be filled with angles.
@@ -271,7 +271,7 @@ export default function CanisiusCaseStudy() {
               </h2>
               <div className="space-y-4">
                 <p className="font-body text-base leading-relaxed" style={{ color: '#2a2a35' }}>
-                  The guiding logic for the entire system was restraint in service of personality. Navy moved from dominant to supporting. Yellow was given precision roles — accent, emphasis, momentum — rather than being applied broadly. It was imporant as a colour representing vibrant energy and hope - but a strict balance was needed to prevent it from becoming too gaudy or an eyesore.
+                  The guiding logic for the entire system was restraint in service of personality. Navy moved from dominant to supporting. Yellow was given precision roles - accent, emphasis, and momentum rather than being applied broadly. It was imporant as a colour representing vibrant energy and hope but a strict balance was needed to prevent it from becoming too gaudy or an eyesore.
                 </p>
                 <p className="font-body text-base leading-relaxed" style={{ color: '#2a2a35' }}>
                   Neutrals and white space became structural elements, not just background, giving the system its sense of gravitas and preventing the colour palette from tipping into becoming overwhelmingly dark with the blue or too gaudy with the yellow. It added maturity and structure to the composition.
@@ -337,14 +337,14 @@ export default function CanisiusCaseStudy() {
                 className="font-heading font-bold text-fog-50 mb-6"
                 style={{ fontSize: 'clamp(1.8rem, 4vw, 3.2rem)', letterSpacing: '-0.03em', lineHeight: '1.1' }}
               >
-                The client loved it — and came back to us for everything visual the university makes.
+                The client loved it and came back to us for everything visual the university makes.
               </h2>
               <div className="space-y-4 mb-8">
                 <p className="text-fog-400 font-body text-base leading-relaxed max-w-2xl">
                   The final system delivered a component library, three core page templates, a typographic hierarchy, colour usage principles, and imagery guidelines — the first time Canisius had a clearly defined visual identity governing design decisions across media.
                 </p>
                 <p className="text-fog-400 font-body text-base leading-relaxed max-w-2xl">
-                  The strongest outcome wasn't the website: it was the brand identity that came out of it and the extended engagements afterwards. The client returned to design posters, brochures, and full marketing collateral — not through a sales process, but because the system proved strong and flexible enough to inspire them with more opportunties.
+                  The strongest outcome wasn't the website: it was the brand identity that developed and the extended engagements afterwards. The client returned to design posters, brochures, and full marketing collateral — not through a sales process, but because the system proved strong and flexible enough to inspire them with more opportunties.
                 </p>
               </div>
               <div className="inline-flex items-center gap-3 bg-green-800 text-white font-heading font-bold text-sm uppercase tracking-widest px-6 py-4 rounded-full">
@@ -411,11 +411,11 @@ export default function CanisiusCaseStudy() {
 
             <ScrollReveal className="md:col-span-7 md:col-start-6" delay={0.1}>
               {[
-                { label: 'Creative process', text: 'Protect more iteration time for speculative, deliberately wrong concepts — not because the brief requires it, but because those experiments build a personal creative library that feeds future work.' },
+                { label: 'Creative process', text: 'Protect more iteration time for speculative, deliberately wrong concepts - not because the brief requires it, but because those experiments build a personal creative library that feeds future work.' },
                 { label: 'Constraints as fuel', text: "The Jesuit constraint ruled out one creative direction; more radical exploration might have surfaced others worth developing for different clients." },
-                { label: 'Research workflow', text: 'AI-assisted UX research synthesis would have accelerated the discovery phase significantly — manually processing a large volume of research findings was the biggest time cost.' },
-                { label: 'QA workflow', text: "AI-assisted front-end QA would have eliminated real friction — at the time I was writing code snippets and downloading the site to test fixes manually; that's the clearest workflow improvement available now." },
-                { label: 'Measurement', text: 'Defining prospective student engagement metrics upfront — application conversion, time-on-admissions-pages — would have made the impact story measurable.' },
+                { label: 'Research workflow', text: 'AI-assisted UX research synthesis would have accelerated the discovery phase significantly, manually processing a large volume of research findings was a big time investment.' },
+                { label: 'QA workflow', text: "AI-assisted front-end QA would have eliminated some friction at the time I was writing code snippets and downloading the site to test fixes manually to then send to the front-end dev team. A cleaner workflow with AI support would work now." },
+                { label: 'Reflection', text: 'Defining the visual brand story and having that story continue through repeated design engagements was fulfilling as we could logically direct the evolution of the brand for years to come while the core web experience has aged extremmely well.' },
               ].map((item, i) => (
                 <motion.div
                   key={i}
