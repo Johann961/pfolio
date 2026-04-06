@@ -1,10 +1,19 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
+import { useEffect } from 'react';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import YRPCaseStudy from './pages/case-studies/YRPCaseStudy';
 import CanisiusCaseStudy from './pages/case-studies/CanisiusCaseStudy';
 import FSUCaseStudy from './pages/case-studies/FSUCaseStudy';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -26,6 +35,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <AnimatedRoutes />
     </BrowserRouter>
   );
